@@ -7,11 +7,11 @@ var gulp = require('gulp'),
 	rename = require('gulp-rename');
 
 // Path
-var pathSourceCSS = 'sodexoclub/res/css/*.css',
-	pathDistCSS = 'sodexoclub/res/css/dist',
-	pathSourceJS = 'sodexoclub/res/js/*.js',
-	pathDistJS = 'sodexoclub/res/js/dist',
-	pathSourceSASS = 'sodexoclub/res/sass/*.scss';
+var pathSourceCSS = '<PATHSOURCECSS>',
+	pathDistCSS = '<PATHDISTCSS>',
+	pathSourceJS = '<PATHSOURCEJS>',
+	pathDistJS = '<PATHDISTJS>',
+	pathSourceSASS = '<PATHSOURCESASS>';
 
 // Tarefas
 gulp.task('cssmin', function(){
